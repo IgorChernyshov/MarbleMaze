@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		D6D0AA4A26C952FD0092733C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA4926C952FD0092733C /* AppDelegate.swift */; };
 		D6D0AA4C26C952FD0092733C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6D0AA4B26C952FD0092733C /* GameScene.sks */; };
-		D6D0AA4E26C952FD0092733C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6D0AA4D26C952FD0092733C /* Actions.sks */; };
 		D6D0AA5026C952FD0092733C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA4F26C952FD0092733C /* GameScene.swift */; };
 		D6D0AA5226C952FD0092733C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA5126C952FD0092733C /* GameViewController.swift */; };
 		D6D0AA5526C952FD0092733C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D0AA5326C952FD0092733C /* Main.storyboard */; };
 		D6D0AA5726C952FF0092733C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D0AA5626C952FF0092733C /* Assets.xcassets */; };
+		D6D0AA6826C953FC0092733C /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6D0AA6726C953FC0092733C /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6D0AA4626C952FD0092733C /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D0AA4926C952FD0092733C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6D0AA4B26C952FD0092733C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D6D0AA4D26C952FD0092733C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		D6D0AA4F26C952FD0092733C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D6D0AA5126C952FD0092733C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D6D0AA5426C952FD0092733C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6D0AA5626C952FF0092733C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D0AA5826C952FF0092733C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D0AA6726C953FC0092733C /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +60,22 @@
 			children = (
 				D6D0AA4926C952FD0092733C /* AppDelegate.swift */,
 				D6D0AA4B26C952FD0092733C /* GameScene.sks */,
-				D6D0AA4D26C952FD0092733C /* Actions.sks */,
 				D6D0AA4F26C952FD0092733C /* GameScene.swift */,
 				D6D0AA5126C952FD0092733C /* GameViewController.swift */,
 				D6D0AA5326C952FD0092733C /* Main.storyboard */,
 				D6D0AA5626C952FF0092733C /* Assets.xcassets */,
 				D6D0AA5826C952FF0092733C /* Info.plist */,
+				D6D0AA6A26C953FF0092733C /* Levels */,
 			);
 			path = MarbleMaze;
+			sourceTree = "<group>";
+		};
+		D6D0AA6A26C953FF0092733C /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				D6D0AA6726C953FC0092733C /* level1.txt */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D0AA5526C952FD0092733C /* Main.storyboard in Resources */,
+				D6D0AA6826C953FC0092733C /* level1.txt in Resources */,
 				D6D0AA4C26C952FD0092733C /* GameScene.sks in Resources */,
 				D6D0AA5726C952FF0092733C /* Assets.xcassets in Resources */,
-				D6D0AA4E26C952FD0092733C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = frostfell.MarbleMaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -311,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = frostfell.MarbleMaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
