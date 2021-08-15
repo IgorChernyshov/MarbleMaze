@@ -14,6 +14,7 @@
 		D6D0AA5526C952FD0092733C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D0AA5326C952FD0092733C /* Main.storyboard */; };
 		D6D0AA5726C952FF0092733C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D0AA5626C952FF0092733C /* Assets.xcassets */; };
 		D6D0AA6826C953FC0092733C /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6D0AA6726C953FC0092733C /* level1.txt */; };
+		D6D0AA6E26C977A20092733C /* CollisionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0AA6D26C977A20092733C /* CollisionTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D6D0AA5626C952FF0092733C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D0AA5826C952FF0092733C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D0AA6726C953FC0092733C /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		D6D0AA6D26C977A20092733C /* CollisionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D6D0AA4B26C952FD0092733C /* GameScene.sks */,
 				D6D0AA4F26C952FD0092733C /* GameScene.swift */,
 				D6D0AA5126C952FD0092733C /* GameViewController.swift */,
+				D6D0AA6D26C977A20092733C /* CollisionTypes.swift */,
 				D6D0AA5326C952FD0092733C /* Main.storyboard */,
 				D6D0AA5626C952FF0092733C /* Assets.xcassets */,
 				D6D0AA5826C952FF0092733C /* Info.plist */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D0AA6E26C977A20092733C /* CollisionTypes.swift in Sources */,
 				D6D0AA5026C952FD0092733C /* GameScene.swift in Sources */,
 				D6D0AA5226C952FD0092733C /* GameViewController.swift in Sources */,
 				D6D0AA4A26C952FD0092733C /* AppDelegate.swift in Sources */,
